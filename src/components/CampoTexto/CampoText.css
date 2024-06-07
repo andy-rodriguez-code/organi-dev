@@ -1,0 +1,23 @@
+.campotextos{
+   margin: 24px 0;
+   font-family: "Montserrat", sans-serif;
+}
+.campotextos label{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color:#303030;
+    display: block;
+    margin-bottom: 5px;
+}
+.campotextos input{
+    width: 100%;
+    background-color: white;
+    color:#303030;
+    border-radius: 5px;
+    border:none;
+    padding: 25px 15px;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.288);
+    outline-color: #ce9500;
+    font-size: 16px;
+}

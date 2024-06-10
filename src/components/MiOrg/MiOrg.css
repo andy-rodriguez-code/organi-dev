@@ -1,0 +1,31 @@
+.orgSection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.orgSection img{
+    width: 65px;
+    position: absolute;
+    right: 35%;
+    cursor: pointer;
+}
+.titulo-org{
+    color: #ce9500;
+    font-size: 2.5rem;
+    font-family: "Prata",sans-serif;
+    font-weight: 400;
+    padding-bottom: 2px;
+    border-bottom: 4px solid #ce9500;
+}
+@media  (max-width: 768px) {
+    .titulo-org{
+        font-size: 1.5rem;
+    }
+    .orgSection img{
+        width: 35px;
+        position: absolute;
+        right: 20%;
+        cursor: pointer;
+    }
+}

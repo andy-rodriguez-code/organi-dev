@@ -20,4 +20,5 @@
     box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.288);
     outline-color: #ce9500;
     font-size: 16px;
+    box-sizing: border-box;
 }

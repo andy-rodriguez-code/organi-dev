@@ -1,0 +1,16 @@
+.btn{
+    background: #ce9500;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px 32px;
+    border: none;
+    margin: 32px 0;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #b68301;
+    outline-color:#b68301;
+    
+}

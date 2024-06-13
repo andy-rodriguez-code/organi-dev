@@ -1,0 +1,41 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    background: #ffd026;
+}
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.redes img{
+    width: 45px;
+    margin: 10px;
+}
+.footer .favicons{
+    width: 40px;
+    margin: 10px;
+}
+.footer .parteabajo{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media  (max-width: 412px) {
+    .footer{
+        display: block;
+    }
+    .parteabajo{
+        flex-direction: column
+    }
+    
+   
+    .parteabajo strong{
+        font-size: 12px;
+        text-align: center;
+    }
+}

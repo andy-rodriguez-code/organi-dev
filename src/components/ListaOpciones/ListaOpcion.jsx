@@ -4,15 +4,7 @@ import "./ListaOpcion.css";
 
 const ListaOpciones = (props) => {
   //Usamos metodo map-> arreglo.map(()=>)//
-  const equipos = [
-    "Programación",
-    "Fron End",
-    "Data Sience",
-    "DevOps",
-    "Ux y Diseño",
-    "Móvil",
-    "Gestión y Innovasión",
-  ];
+ 
   const manejarCambioLista= (e)=>{
     console.log("Se ha seleccionado una opción",e.target.value);
     props.setValor(e.target.value)
@@ -24,7 +16,7 @@ const ListaOpciones = (props) => {
       <label>Equipos</label>
       <select value={props.valor} onChange={manejarCambioLista}>
       <option value="" disabled defaultValue="" hidden >Seleccionar un equipo</option>
-        {equipos.map((equipo, index) => {
+        {props.equipos.map((equipo, index) => {
           return <option key={index} value={equipo}> {equipo}</option>;
         })}
       </select>
@@ -33,6 +25,7 @@ const ListaOpciones = (props) => {
 };
 ListaOpciones.propTypes = {
   valor: PropTypes.string.isRequired,
-  setValor: PropTypes.func.isRequired
+  setValor: PropTypes.func.isRequired,
+  equipos:PropTypes.array.isRequired
 };
 export default ListaOpciones;

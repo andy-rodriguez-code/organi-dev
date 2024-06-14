@@ -1,8 +1,11 @@
-# React + Vite
+# Organi-dev
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Mini proyecto realizado con la libreria de raect y vite donde pusimos en practica todo lo aprendido en la clase
 
-Currently, two official plugins are available:
+¿Que aprendimos al realizar este mini proyecto?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- La logica de como se maneja su estructura
+- Virtual dom en react.
+- useStates como se manejan y sus comportamientos
+- los spreed opereitor
+- a crear componentes.
